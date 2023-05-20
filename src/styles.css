@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+}
+.main-heading {
+  display: flex;
+  justify-content: center;
+}
+/* .main-container {
+  border-right: 1px solid black;
+  padding-right: 5px;
+  width: 50%;
+  height: 100vh;
+  background: yellowgreen;
+} */
+/* .secondary-container {
+  background: red;
+  width: 50%;
+  height: 100vh;
+} */
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  border: 2px dashed rgb(117, 112, 112);
+  padding: 20px;
+  margin-top: 140px;
+  margin-left: 80px;
+}
+button {
+  padding: 8px;
+  border-radius: 20px;
+  border-style: none;
+}
+button:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+.first {
+  position: fixed;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 255, 207, 1) 97%
+  );
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(141, 140, 140);
+  border-radius: 7px;
+}
+.scrollbox {
+  overflow: auto;
+  padding: 0 10px;
+  visibility: hidden;
+}
+.scrollbox-inner,
+.scrollbox:hover {
+  visibility: visible;
+}
+.second {
+  position: relative;
+  right: 350px;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.infinite {
+  color: whitesmoke;
+}
